@@ -1,0 +1,135 @@
+name: Angular 15 APIs
+description: A collection of APIs and resources for Angular 15 framework
+image: https://angular.io/assets/images/logos/angular/angular.svg
+url: https://angular.io
+created: '2022-11-16'
+modified: '2023-12-31'
+apis:
+- name: Angular Core API
+  description: Core Angular framework APIs including components, directives, and dependency injection
+  image: https://angular.io/assets/images/logos/angular/angular.svg
+  humanURL: https://angular.io/api/core
+  baseURL: https://angular.io/api
+  tags:
+  - Framework
+  - TypeScript
+  - Components
+  - Directives
+  properties:
+  - type: Documentation
+    url: https://angular.io/docs
+  - type: API Reference
+    url: https://angular.io/api/core
+  - type: GitHub
+    url: https://github.com/angular/angular
+- name: Angular Common API
+  description: Common utilities and pipes for Angular applications
+  humanURL: https://angular.io/api/common
+  baseURL: https://angular.io/api
+  tags:
+  - Pipes
+  - Directives
+  - Services
+  properties:
+  - type: API Reference
+    url: https://angular.io/api/common
+  - type: Documentation
+    url: https://angular.io/api/common
+- name: Angular Router API
+  description: Navigation and routing capabilities for Angular applications
+  humanURL: https://angular.io/api/router
+  baseURL: https://angular.io/api
+  tags:
+  - Routing
+  - Navigation
+  - Guards
+  properties:
+  - type: API Reference
+    url: https://angular.io/api/router
+  - type: Guide
+    url: https://angular.io/guide/router
+- name: Angular Forms API
+  description: Template-driven and reactive forms for Angular
+  humanURL: https://angular.io/api/forms
+  baseURL: https://angular.io/api
+  tags:
+  - Forms
+  - Validation
+  - Reactive
+  properties:
+  - type: API Reference
+    url: https://angular.io/api/forms
+  - type: Guide
+    url: https://angular.io/guide/forms-overview
+- name: Angular HTTP Client API
+  description: HTTP client for making requests and handling responses
+  humanURL: https://angular.io/api/common/http
+  baseURL: https://angular.io/api
+  tags:
+  - HTTP
+  - REST
+  - Interceptors
+  properties:
+  - type: API Reference
+    url: https://angular.io/api/common/http
+  - type: Guide
+    url: https://angular.io/guide/http
+- name: Angular Animations API
+  description: Animation system for creating smooth transitions
+  humanURL: https://angular.io/api/animations
+  baseURL: https://angular.io/api
+  tags:
+  - Animations
+  - Transitions
+  - Effects
+  properties:
+  - type: API Reference
+    url: https://angular.io/api/animations
+  - type: Guide
+    url: https://angular.io/guide/animations
+- name: Angular Material API
+  description: Material Design components for Angular
+  humanURL: https://material.angular.io
+  baseURL: https://material.angular.io
+  tags:
+  - UI Components
+  - Material Design
+  - Theming
+  properties:
+  - type: Documentation
+    url: https://material.angular.io/components
+  - type: GitHub
+    url: https://github.com/angular/components
+- name: Angular CLI
+  description: Command-line interface for Angular development
+  humanURL: https://angular.io/cli
+  baseURL: https://angular.io/cli
+  tags:
+  - CLI
+  - Build Tools
+  - Development
+  properties:
+  - type: Documentation
+    url: https://angular.io/cli
+  - type: GitHub
+    url: https://github.com/angular/angular-cli
+  - type: npm
+    url: https://www.npmjs.com/package/@angular/cli
+maintainers:
+- name: Angular Team
+  email: angular-core@googlegroups.com
+  url: https://angular.io/about
+tags:
+- Angular
+- TypeScript
+- Frontend
+- SPA
+- Framework
+- Web Development
+include:
+- name: Angular Update Guide
+  url: https://update.angular.io
+- name: Angular Blog
+  url: https://blog.angular.io
+- name: Angular Community
+  url: https://community.angular.io
