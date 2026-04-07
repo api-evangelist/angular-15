@@ -14,10 +14,10 @@ apis:
     humanURL: https://angular.io/api/core
     baseURL: https://angular.io/api
     tags:
-      - Framework
-      - TypeScript
       - Components
       - Directives
+      - Framework
+      - TypeScript
     properties:
       - type: Documentation
         url: https://angular.io/docs
@@ -31,9 +31,8 @@ apis:
     humanURL: https://angular.io/api/common
     baseURL: https://angular.io/api
     tags:
-      - Pipes
       - Directives
-      - Services
+      - Pipes
     properties:
       - type: API Reference
         url: https://angular.io/api/common
@@ -45,9 +44,9 @@ apis:
     humanURL: https://angular.io/api/router
     baseURL: https://angular.io/api
     tags:
-      - Routing
-      - Navigation
       - Guards
+      - Navigation
+      - Routing
     properties:
       - type: API Reference
         url: https://angular.io/api/router
@@ -60,8 +59,8 @@ apis:
     baseURL: https://angular.io/api
     tags:
       - Forms
-      - Validation
       - Reactive
+      - Validation
     properties:
       - type: API Reference
         url: https://angular.io/api/forms
@@ -74,8 +73,8 @@ apis:
     baseURL: https://angular.io/api
     tags:
       - HTTP
-      - REST
       - Interceptors
+      - REST
     properties:
       - type: API Reference
         url: https://angular.io/api/common/http
@@ -88,8 +87,8 @@ apis:
     baseURL: https://angular.io/api
     tags:
       - Animations
-      - Transitions
       - Effects
+      - Transitions
     properties:
       - type: API Reference
         url: https://angular.io/api/animations
@@ -101,9 +100,9 @@ apis:
     humanURL: https://material.angular.io
     baseURL: https://material.angular.io
     tags:
-      - UI Components
       - Material Design
       - Theming
+      - UI Components
     properties:
       - type: Documentation
         url: https://material.angular.io/components
@@ -115,8 +114,8 @@ apis:
     humanURL: https://angular.io/cli
     baseURL: https://angular.io/cli
     tags:
-      - CLI
       - Build Tools
+      - CLI
       - Development
     properties:
       - type: Documentation
@@ -131,10 +130,10 @@ maintainers:
     url: https://angular.io/about
 tags:
   - Angular
-  - TypeScript
+  - Framework
   - Frontend
   - SPA
-  - Framework
+  - TypeScript
   - Web Development
 include:
   - name: Angular Update Guide
