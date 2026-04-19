@@ -1,143 +1,129 @@
-# Angular 15 APIs (angular-15)
-A collection of APIs and resources for Angular 15 framework
+# Angular 15 (angular-15)
 
-**URL:** [Visit APIs.json URL](https://angular.io)
+Angular 15 is a major release of the Angular TypeScript framework, released November 16, 2022. Key features include stable standalone components and directives, the new directive composition API, stable NgOptimizedImage for improved image load performance, standalone router APIs with up to 11% bundle size reduction, functional HTTP interceptors, and improved esbuild integration for faster build times.
+
+**URL:** [https://raw.githubusercontent.com/api-evangelist/angular-15/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/angular-15/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index
+- **Access:** Open Source
 
 ## Tags:
 
- - Angular, TypeScript, Frontend, SPA, Framework, Web Development
+ - Framework, Frontend, JavaScript, Open Source, Single Page Application, Standalone Components, TypeScript, Web Development
 
 ## Timestamps
 
-- **Created:** 2022-11-16 
-- **Modified:** 2023-12-31 
+- **Created:** 2022-11-16
+- **Modified:** 2026-04-19
 
 ## APIs
 
-### Angular Core API
-Core Angular framework APIs including components, directives, and dependency injection
+### Angular 15 Core API
 
-**Human URL:** [https://angular.io/api/core](https://angular.io/api/core)
+Core Angular 15 framework APIs including stable standalone components, directive composition API, image optimization via NgOptimizedImage, dependency injection improvements, and extended template diagnostics.
 
+**Human URL:** [https://v15.angular.io/api/core](https://v15.angular.io/api/core)
 
 #### Tags:
 
- - Framework, TypeScript, Components, Directives
+ - Change Detection, Components, Decorators, Dependency Injection, Framework, Standalone Components, TypeScript
 
 #### Properties
 
-- [Documentation](https://angular.io/docs)
-- [API Reference](https://angular.io/api/core)
+- [Documentation](https://v15.angular.io/api/core)
 - [GitHub](https://github.com/angular/angular)
 
-### Angular Common API
-Common utilities and pipes for Angular applications
+### Angular 15 Common API
 
-**Human URL:** [https://angular.io/api/common](https://angular.io/api/common)
+Common Angular 15 directives and pipes including the stable NgOptimizedImage directive for improved image loading performance, NgIf, NgFor, DatePipe, and other shared utilities.
 
-
-#### Tags:
-
- - Pipes, Directives, Services
-
-#### Properties
-
-- [API Reference](https://angular.io/api/common)
-- [Documentation](https://angular.io/api/common)
-
-### Angular Router API
-Navigation and routing capabilities for Angular applications
-
-**Human URL:** [https://angular.io/api/router](https://angular.io/api/router)
-
+**Human URL:** [https://v15.angular.io/api/common](https://v15.angular.io/api/common)
 
 #### Tags:
 
- - Routing, Navigation, Guards
+ - Directives, Image Optimization, Pipes, Utilities
 
 #### Properties
 
-- [API Reference](https://angular.io/api/router)
-- [Guide](https://angular.io/guide/router)
+- [Documentation](https://v15.angular.io/api/common)
 
-### Angular Forms API
-Template-driven and reactive forms for Angular
+### Angular 15 Router API
 
-**Human URL:** [https://angular.io/api/forms](https://angular.io/api/forms)
+Angular 15 routing APIs with new standalone router APIs enabling up to 11% bundle size reduction by tree-shaking unused router features.
 
+**Human URL:** [https://v15.angular.io/api/router](https://v15.angular.io/api/router)
 
 #### Tags:
 
- - Forms, Validation, Reactive
+ - Guards, Navigation, Routing, Standalone API
 
 #### Properties
 
-- [API Reference](https://angular.io/api/forms)
-- [Guide](https://angular.io/guide/forms-overview)
+- [Documentation](https://v15.angular.io/api/router)
+- [Guide](https://v15.angular.io/guide/router)
 
-### Angular HTTP Client API
-HTTP client for making requests and handling responses
+### Angular 15 Forms API
 
-**Human URL:** [https://angular.io/api/common/http](https://angular.io/api/common/http)
+Angular 15 forms APIs with stable strictly typed reactive forms and improved form validation.
 
+**Human URL:** [https://v15.angular.io/api/forms](https://v15.angular.io/api/forms)
 
 #### Tags:
 
- - HTTP, REST, Interceptors
+ - Forms, Reactive Forms, Typed Forms, Validation
 
 #### Properties
 
-- [API Reference](https://angular.io/api/common/http)
-- [Guide](https://angular.io/guide/http)
+- [Documentation](https://v15.angular.io/api/forms)
 
-### Angular Animations API
-Animation system for creating smooth transitions
+### Angular 15 HTTP Client API
 
-**Human URL:** [https://angular.io/api/animations](https://angular.io/api/animations)
+Angular 15 HTTP client with functional interceptors support as a lighter alternative to class-based interceptors.
 
+**Human URL:** [https://v15.angular.io/api/common/http](https://v15.angular.io/api/common/http)
 
 #### Tags:
 
- - Animations, Transitions, Effects
+ - HTTP, Interceptors, REST
 
 #### Properties
 
-- [API Reference](https://angular.io/api/animations)
-- [Guide](https://angular.io/guide/animations)
+- [Documentation](https://v15.angular.io/api/common/http)
 
-### Angular Material API
-Material Design components for Angular
+### Angular 15 CDK API
 
-**Human URL:** [https://material.angular.io](https://material.angular.io)
+Angular 15 Component Dev Kit providing behavior primitives for building custom accessible UI components.
 
+**Human URL:** [https://v15.material.angular.io/cdk/categories](https://v15.material.angular.io/cdk/categories)
 
 #### Tags:
 
- - UI Components, Material Design, Theming
+ - Accessibility, CDK, Components, Overlay
 
 #### Properties
 
-- [Documentation](https://material.angular.io/components)
+- [Documentation](https://v15.material.angular.io/cdk/categories)
 - [GitHub](https://github.com/angular/components)
 
-### Angular CLI
-Command-line interface for Angular development
+## Common Properties
 
-**Human URL:** [https://angular.io/cli](https://angular.io/cli)
-
-
-#### Tags:
-
- - CLI, Build Tools, Development
-
-#### Properties
-
-- [Documentation](https://angular.io/cli)
-- [GitHub](https://github.com/angular/angular-cli)
-- [npm](https://www.npmjs.com/package/@angular/cli)
+- [Documentation](https://v15.angular.io/)
+- [GitHub](https://github.com/angular/angular)
+- [Changelog](https://github.com/angular/angular/releases/tag/15.0.0)
+- [Blog](https://blog.angular.dev/angular-v15-is-now-available-df7be7f2f4c8)
+- [Guide](https://v15.angular.io/guide/standalone-components)
+- [Guide](https://v15.angular.io/guide/image-directive)
+- [PackageRegistry](https://www.npmjs.com/package/@angular/core)
+- [License](https://github.com/angular/angular/blob/main/LICENSE)
+- [Contributing](https://github.com/angular/angular/blob/main/CONTRIBUTING.md)
+- [StackOverflow](https://stackoverflow.com/questions/tagged/angular)
+- [Discord](https://discord.gg/angular)
+- [X](https://twitter.com/angular)
 
 ## Maintainers
 
-**FN:** Angular Team
+**FN:** API Evangelist
 
-**Email:** angular-core@googlegroups.com
+**Email:** info@apievangelist.com
