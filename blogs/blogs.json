@@ -2,12 +2,17 @@
   "repo": "angular-15",
   "feeds": [
     {
-      "source": "https://blog.angular.dev/angular-v15-is-now-available-df7be7f2f4c8",
+      "source": "https://blog.angular.dev/feed/",
       "feed_url": "https://blog.angular.dev/feed/",
-      "title": "Angular Blog - Medium",
-      "saved": 4
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://blog.angular.dev/angular-v15-is-now-available-df7be7f2f4c8",
+      "error": "HTTPError"
     }
   ],
   "post_count": 14,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
