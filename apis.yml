@@ -173,7 +173,7 @@ common:
     type: X
 created: '2022-11-16'
 modified: '2026-04-19'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 description: >-
   Angular 15 is a major release of the Angular TypeScript framework, released
   November 16, 2022. Key features include stable standalone components and
