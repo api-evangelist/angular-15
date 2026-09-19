@@ -88,6 +88,11 @@ apis:
   - Accessibility
   - CDK
   - Components
+  - Overlays
+  tags_raw:
+  - Accessibility
+  - CDK
+  - Components
   - Overlay
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://material.angular.io/cdk
